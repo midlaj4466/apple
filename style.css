@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 48px;
+    max-height: 44px;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+}
+header nav{
+    width: 70%;
+    
+}
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav ul li{
+    font-size: 12px;
+    color: #f5f5f7;
+    opacity: .8;
+    
+}
+header nav ul li svg{
+    
+}
+.unicef {
+    width: 100%;
+    background: #1d1d1f;
+    display: flex;
+    justify-content: center;
+    height: 72px;
+}
+.unicef .row{
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.unicef .row img{
+    width: 122px;
+    height: 32px;
+}
+.unicef .row a{
+    text-decoration: none;
+    color: #2997FF;
+    font-size: 14px;
+}
+.unicef .row a:hover{
+    text-decoration: underline;
+}
+.main-banner{
+    width: 100%;
+    display: block;
+    background-color: #f5f5f7;
+    align-items: center;
+    align-content: center;
+}
+.main-banner .banner-title{
+    letter-spacing: -1px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+}
+.banner-title h2{
+    color: #1d1d16;
+    font-size: 56px;
+    font-style: italic;
+
+}
+.banner-title h2 span{
+    color: #ca2166;
+}
+.banner-title h3{
+    font-size: 28px;
+    font-weight: 100;
+}
+.banner-title h3 a{
+    text-decoration: none;
+    color: #1d1d16;
+}
+.banner-title h3 a:hover{
+    color: #2997FF;
+}
+.banner-title .shop-link{
+    padding-top: 16px;
+}
+.banner-title .shop-link a{
+    text-decoration: none;
+    color: #06c;
+    font-size: 21px;
+}
+.main-banner .banner{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+}
+.main-banner .banner img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 33vw;;
+}
+
+
+.iphone {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.iphone .row{
+    width: 100%;
+    height: 100%;
+    background: url('images/hero_iphone13_avail__gnqqkzuai6um_large.jpg');
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f7;
+}
+footer .row{
+    margin: 24px 0;
+    width: 65%;
+    height: 100%;
+}
+footer .row .writings p{
+    margin: 15px 0;
+    font-size: 12px;
+    color: #6E6E73;
+    opacity: 0.9;
+}
+footer .row .writings p a{
+    opacity: 1;
+    text-decoration: none;
+    color: #1d1d1f;
+}
+footer .row .writings p a:hover{
+    text-decoration: underline;
+}
+
+footer .row .writings hr{
+    margin: 24px 0 0 0;
+    opacity: 0.7;    
+}
+footer .row .list{
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer .row .list ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #424245;
+    opacity: 0.9;
+}
+footer .row .list ul li a:hover{
+    text-decoration: underline;
+}
+footer .row .list ul .list-bold{
+    color: #1d1d1f;
+    font-weight: 600;
+    line-height: 1.33337;
+    margin: 10px 0 0 0;
+}
+footer .row a{
+    text-decoration: none;
+    color: #6E6E73;
+}
+footer .more-way{
+    color: #6E6E73;
+    font-size: 12px;
+    padding: 10px 0;
+}
+footer .more-way a{
+    color: #06c;
+    
+}
+footer .more-way a:hover{
+    text-decoration: underline;
+}
+footer .row .final-footer ul{
+    display: flex;
+    justify-content: space-between;
+}
+footer .row .final-footer ul li{
+    color: #1d1d1f;
+    padding: 0 10px;
+}
+footer .row .final-footer p a:hover{
+    text-decoration: underline;
+}
+footer .row .final-footer{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #6E6E73;
+    opacity: 0.9;
+}
